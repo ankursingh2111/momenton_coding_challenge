@@ -1,0 +1,28 @@
+{
+  "name": "momenton_coding_challenge",
+  "version": "1.0.0",
+  "description": "momenton coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec node -r esm .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankursingh2111/momenton_coding_challenge.git"
+  },
+  "author": "Ankur Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankursingh2111/momenton_coding_challenge/issues"
+  },
+  "homepage": "https://github.com/ankursingh2111/momenton_coding_challenge#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.9.0"
+  }
+}
